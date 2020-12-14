@@ -1,0 +1,283 @@
+@media all and (max-width: 1024px)
+{
+ body
+ {
+     display: flex;
+     flex-direction: column;
+     width: 500px;
+     padding: 0;
+     margin: auto;
+ }
+
+ .colonne2
+ {
+    display: flex;
+    flex-direction: row;
+ }
+}
+
+*
+{
+    font-family: "Lato", Arial, "Arial Black", Impact, Verdana;
+}
+body
+{
+    display: flex;
+    padding-left: 20%;
+}
+/* Ici je commence avec 
+la premiere colonne */
+.colonne1
+{
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    width: 300px;
+    background-color: #5271FF;
+    border: solid silver;
+}
+
+.image
+{
+    width: 300px;
+    height: 200px;
+}
+
+.baro
+{
+    margin-left: 40px;
+    border: solid silver;
+}
+.coordone
+{
+    width: 250px;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.element
+{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.separateur1
+{
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    border: white solid 1px;
+    margin-left: 30px;
+}
+
+.langue
+{
+    width: 200px;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+
+}
+
+.separateur2
+{
+    width: 200px;
+    height: 2px;
+    background-color: white;
+    border: white solid 1px;
+    margin-left: 30px;
+}
+
+.interet
+{
+    width: 200px;
+    height: 100px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
+}
+
+.coordone, .separateur1, .langue, .separateur2, .interet, .image
+{
+    padding-left: 30px;
+}
+
+.colonne1 h1
+{
+    padding-left: 7px;
+}
+/* ici je continue par 
+la deuxieme colonne */
+
+.colonne2
+{
+    display: flex;
+    flex-direction: column;
+    border: solid silver;
+    width: 500px;
+    height: 1000px;
+    box-shadow: lavender;
+}
+
+#titredev
+{
+    font-size: 2.7em;
+}
+.element2
+{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+}
+
+.titre1
+{
+    display: flex;
+    height: 50px;
+    
+    
+}
+.titre
+{
+    width:400px;
+    height: 150px;
+    line-height: 15px;
+    text-align: left;
+}
+
+.diplome
+{
+    width: 400px;
+    height: 400px;
+    padding-top: 0;
+    margin: 0;
+}
+
+.competence
+{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 180px;
+}
+
+.exp
+{
+    width: 500px;
+    height: 1000px;
+    white-space: normal;
+}
+
+.titre, .diplome, .competence, .exp
+{
+    padding-left: 0px;
+}
+
+.colonne2 p, h1
+{
+    padding-left: 40px;
+}
+
+.colonne2 ul
+{
+    padding-left: 55px;
+}
+
+.esp
+{
+    margin: 0;
+    padding-left: 20px;
+}
+
+.esp1 
+{
+    margin: 0;
+    padding-left: 0;
+}
+
+.esp3
+{
+    margin: 0;
+    padding-left: 0;
+}
+
+#esp3
+{
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.esp4
+{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+}
+
+#esp5
+{
+    display: flex;
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+#esp6
+{
+    margin-bottom: 0;
+    padding-left: 0;
+    margin-top: 0;
+}
+
+.esp7
+{
+    margin-bottom: 15px;
+}
+
+.esp8
+{
+    margin: 0;
+    padding-left: 0;
+}
+/* 
+pour régler les etoiles
+*/
+
+
+
+.box1 
+{
+    width: 400px;
+    height: 200px;
+    padding: 0;
+    margin: 0;
+}
+
+.etoilevide 
+{
+    width: 40px;
+    height: 20px;
+    margin-left: 110px;
+}
+
+#droite
+{
+    padding-left: 2px;
+}
+
+/*
+ici ce sont les mots en gras
+*/
+
+.gras
+{
+    font-weight: bold;
+}
